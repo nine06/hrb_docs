@@ -1,8 +1,8 @@
 ##6. Client端命令
 <hr style=" border:4px solid #A9A9A9;" /> 
-客户端共包含10个常用命令。目前有 Linux 、 window 、 os 三个操作系统版本客户端，具体获取方式见 [www.hrbdataex.com/clientDownload](www.hrbdataex.com/clientDownload).    
+客户端共包含10个常用命令。目前有 Linux 、 window 、 os 三个操作系统版本客户端，具体获取方式见 [www.hrbdataex.com/clientToolDownload](www.hrbdataex.com/clientToolDownload).    
 <br></br>
-DataHub 的数据结构由数据主题（ Repository ,简称 repo ）、数据项（ DataItem ，简称 item ）、数据包（ Tag ）三级结构构成，数据主题在 DataHub 网站创建，数据项、数据包在 Client 端发布。     
+数据结构由数据主题（ Repository ,简称 repo ）、数据项（ DataItem ，简称 item ）、数据包（ Tag ）三级结构构成，数据主题在 DataHub 网站创建，数据项、数据包在 Client 端发布。     
  
 ###命令介绍
 #####[6.1 dp 数据池管理](dp.md)
@@ -19,6 +19,6 @@ DataHub 的数据结构由数据主题（ Repository ,简称 repo ）、数据�
 
 #####说明
 * 如果没有额外说明，所有的命令在没有错误发生时，不在终端输出任何信息，只记录到日志中。错误信息会打印到终端。
-* 所有的命令执行都会记录到日志中，日志级别分[TRACE] [INFO] [WARNNING] [ERROR] [FATAL]。日志在 DataHub 网站“监控中心”查看。
+* 所有的命令执行都会记录到日志中，日志级别分[TRACE] [INFO] [WARNNING] [ERROR] [FATAL]。日志可在哈尔滨数据交易平台的“监控中心”查看。
 * 参数支持全名和简称两种形式，例如--type等同于-t。详情见命令帮助。
 * 参数赋值支持空格和等号两种形式，例如 --type = file 等同于 --type file。

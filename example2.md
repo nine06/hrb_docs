@@ -1,15 +1,15 @@
 ##7.2 应用场景一 ： 发布数据
 <hr style=" border:4px solid #A9A9A9;" />
-下面介绍从 广数DataHub 网站发布名为 datahubrepo1 的数据主题，在客户端发布名为 datahubitem1 的数据集、名为 datahubtag1 的数据包。
+下面介绍从平台发布名为 datahubrepo1 的数据主题，在客户端发布名为 datahubitem1 的数据集、名为 datahubtag1 的数据包。
 
-###第一步 在 广数DataHub 网站发布名为 datahubrepo1 的数据主题
+###第一步 在哈尔滨数据交易中心网站发布名为 datahubrepo1 的数据主题
 在网站上发布名为 datahubrepo1 的数据主题  
 
-* 在 广数DataHub 网站（ http://www.gzbdex.com ）上我的发布 中查看，确认 datahubrepo1 的发布状态。  
+* 在哈尔滨数据交易中心网站（ www.hrbdataex.com ）上我的发布 中查看，确认 datahubrepo1 的发布状态。  
 
 ###第二步 通过 longin 命令登录 Client 端
 #####输入
-	datahub login
+	datahub login www.hrbdataex.com
 #####输出	  
 	login as: ********@*******.com
 	password: ******
@@ -95,4 +95,4 @@
 至第六步完成，一个完整的数据发布过程就结束了。发布的结果后续查看 ：  
   
 * 可通过命令行 datahub repo datahubrepo1/datahubitem1 查看。  
-* 或者到 DataHub 网站 hub.dataos.io ，“我的发布”中查看。
+* 或者到网站（www.hrbdataex.com），“我的发布”中查看。
