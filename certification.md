@@ -3,7 +3,7 @@
 <hr style=" border:4px solid #A9A9A9;" />
 
 ###第一步 成为注册用户
-在 哈尔滨数据交易平台 网站 ( www.hrbdataex.com )通过邮箱注册且激活后，成为注册用户。
+在哈尔滨数据交易中心网站 ( www.hrbdataex.com )通过邮箱注册且激活后，成为注册用户。
 
 #####数据需求方：
 
